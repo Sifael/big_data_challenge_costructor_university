@@ -1,4 +1,8 @@
 """ 
+Date: November 5th, 2023
+Participants: Parmar Nishant, Pakin Veerachanchai, Sripathy Kathiresan Tamilselvan, Sifael Ndandala
+
+
 This Airflow pipeline is designed to implement the first steps of our project to track and report 
 on an application that tracks and reports the GP Appointments. This DAG covers the first step of 
 the application which involves Appointment Intake.
@@ -28,7 +32,7 @@ DETAILS = []
 with DAG( "gp_appointments",
           default_args={
             "depends_on_past": False,
-            "email": ['sndandala@jacobs-university.de'],
+            "email": ['sndandala@jacobs-university.de', 'skathiresa@constructor.university', 'pveerachan@constructor.university', 'nparmar@constructor.university'],
             "email_on_failure": True,
             "email_on_retry": False,
             "retries": 3,
