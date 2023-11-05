@@ -10,7 +10,7 @@
           "Date": "06 November, 2023",
           "patientName": "Aleena Smith",
           "address": "123 6th St. Melbourne, FL 32904",
-          "insurance": "Private"
+          "insurance": "Private",
           "status": "Active",
           "visit_reason": "check-up",
           "startTime": "8 : 00 AM",
