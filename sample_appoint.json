@@ -1,0 +1,23 @@
+{
+  "success": 1,
+  "message": "Success",
+  "result": [
+    {
+      "date": "06-11-2023",
+      "appointments": [
+        {
+          "id": "GPA0001",
+          "Date": "06 November, 2023",
+          "patientName": "Aleena Smith",
+          "address": "123 6th St. Melbourne, FL 32904",
+          "insurance": "Private"
+          "status": "Active",
+          "visit_reason": "check-up",
+          "startTime": "8 : 00 AM",
+          "endTime": "8 : 30 AM",
+          "general_practitioner": "Dr. Malik"
+        }
+      ]
+    }
+  ]
+}
